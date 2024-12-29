@@ -1,0 +1,19 @@
+{
+    "name": "deepak/contactform",
+    "description": "simple laravel form",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Deepak\\Contactform\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Deepak\\Contactform\\ContactFormServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
